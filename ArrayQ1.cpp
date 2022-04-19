@@ -1,6 +1,11 @@
  #include<iostream>
  #include<stdio.h>
  using namespace std;
+
+// here we are adding up the nabour element of the element of an array.
+/* like 1 2 3         4+2     1+5+3    2+6     output   6     9    8  
+        4 5 6   ==>  1+5+7   2+4+7+6  3+5+9     ===>    13    19   17  
+        7 7 9         4+7     7+5+9    6+7              11    21   13    */
  
  int main()
  {
